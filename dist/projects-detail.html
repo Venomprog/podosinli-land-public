@@ -5,8 +5,9 @@
 		<meta charset="utf-8">
 		<title>test-html</title>
 		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+		<script defer="defer" src="assets/vendor.js"></script>
 		<script defer="defer" src="assets/app.js"></script>
-		<link href="40.css" rel="stylesheet">
+		<link href="725.css" rel="stylesheet">
 		<link href="app.css" rel="stylesheet">
 	</head>
 
@@ -92,7 +93,7 @@
 				<div class="header-burger" data-burger-wrapper="burger">
 					<div class="header-burger__inner">
 						<div class="header-burger__col">
-							<nav class="header-burger__nav"><a class="header-burger__nav-item active" href="#">Главная страница</a><a class="header-burger__nav-item" href="#">Готовые дома</a><a class="header-burger__nav-item" href="#">Проекты домов</a><a class="header-burger__nav-item" href="#">Участки</a><a class="header-burger__nav-item" href="#">Генплан</a><a class="header-burger__nav-item" href="#">Акции</a><a class="header-burger__nav-item" href="#">Галерея</a><a class="header-burger__nav-item" href="#">Документы поселка</a></nav>
+							<nav class="header-burger__nav"><a class="header-burger__nav-item active" href="#">Главная страница</a><a class="header-burger__nav-item" href="#">Готовые дома</a><a class="header-burger__nav-item" href="#">Проекты домов</a><a class="header-burger__nav-item" href="#">Участки</a><a class="header-burger__nav-item" href="#">Генплан</a><a class="header-burger__nav-item" href="#">Акции</a><a class="header-burger__nav-item" href="#">Галерея</a><a class="header-burger__nav-item" href="#">Документы поселка</a><a class="header-burger__nav-item mobile" href="#">Личный кабинет</a></nav>
 						</div>
 						<div class="header-burger__col">
 							<div class="header-burger__contacts">
@@ -145,41 +146,12 @@
 											<path d="M6.25026 8.29995L3.53359 5.58328C3.21276 5.26245 3.21276 4.73745 3.53359 4.41662L6.25026 1.69995" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
 										</svg></div>
 								</div>
+								<div class="houses-detail__pagination"></div>
 							</div>
 						</div>
 						<div class="houses-detail__col details">
-							<div class="houses-detail__about desktop">
-								<div class="houses-detail__item">
-									<div class="houses-detail__item-title">Площадь:</div>
-									<div class="houses-detail__item-text">80 м²</div>
-								</div>
-								<div class="houses-detail__item">
-									<div class="houses-detail__item-title">Цена за 1 кв/м%:</div>
-									<div class="houses-detail__item-text">108 000 руб.</div>
-								</div>
-								<div class="houses-detail__item">
-									<div class="houses-detail__item-title">Этажность:</div>
-									<div class="houses-detail__item-text">2</div>
-								</div>
-								<div class="houses-detail__item">
-									<div class="houses-detail__item-title">Фундамент:</div>
-									<div class="houses-detail__item-text">108 000 руб.</div>
-								</div>
-								<div class="houses-detail__item">
-									<div class="houses-detail__item-title">Гараж:</div>
-									<div class="houses-detail__item-text">20 м²</div>
-								</div>
-								<div class="houses-detail__item">
-									<div class="houses-detail__item-title">Материалы постойки:</div>
-									<div class="houses-detail__item-text">Газоблок</div>
-								</div>
-								<div class="houses-detail__item">
-									<div class="houses-detail__item-title">Крой крыши:</div>
-									<div class="houses-detail__item-text">Металочерепица</div>
-								</div>
-							</div>
-							<div class="accordion-container mobile ac-container-houses-detail first">
-								<div class="ac ac-houses-detail">
+							<div class="accordion-container ac-container-houses-detail first">
+								<div class="ac ac-houses-detail is-active">
 									<div class="ac-header ac-advantages__top ac-trigger">
 										<div class="main-functional__subtitle">Премиум</div>
 										<div class="main-functional__plus"><span></span><span></span></div>
@@ -218,7 +190,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="accordion-container mobile ac-container-houses-detail">
+							<div class="accordion-container ac-container-houses-detail">
 								<div class="ac ac-houses-detail">
 									<div class="ac-header ac-advantages__top ac-trigger">
 										<div class="main-functional__subtitle">КОМФОРТ</div>
@@ -297,11 +269,9 @@
 							<div class="footer-main__address">Тульская обл., Ясногорский р-н, коттеджный посёлок Подосинки-Лэнд</div>
 							<div class="footer-main__button">Обратная связь</div>
 						</div>
-						<div class="footer-main__line desktop">
-							<picture class="picture">
-								<source type="image/webp" srcset="assets/images/big-footer-line.webp"><img class="picture__img" src="assets/images/big-footer-line.png">
-							</picture>
-						</div>
+						<div class="footer-main__line desktop"><svg width="603" height="12" viewbox="0 0 603 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M602.773 6.00005L597 0.226549L591.226 6.00005L597 11.7736L602.773 6.00005ZM-8.74228e-08 7L597 7.00005L597 5.00005L8.74228e-08 5L-8.74228e-08 7Z" fill="#05060B" fill-opacity="0.1"></path>
+							</svg></div>
 						<div class="footer-main__content desktop"><a class="footer-main__copy" herf="#">Разработка сайта: ИВОЛВ</a><a class="footer-main__policy" herf="#"> Пользовательское соглашение</a></div>
 					</div>
 					<div class="footer-main__col">
